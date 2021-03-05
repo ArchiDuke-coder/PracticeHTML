@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng kí học viên Codegym</title>
+    <style>
+        .container{
+            height: 500px; width: 900px;
+            border: 1px solid white;
+            background: khaki;
+        }
+        .header{
+            height: 12%; width: 95%;
+            position: relative; left:2.5%; top: 2%;
+            border: 1px solid white;
+            background: aquamarine;
+        }
+        .text{
+            color: blue;
+        }
+        .letter{
+            font-family: "Times New Roman";
+        }
+        .button{
+            border-top: 3px gray; border-left: 3px gray;
+        }
+        .cell{
+            font-size: 14pt;
+            border-bottom: 3px gray; border-right: 3px gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 style="color: blue; font-size: 20pt"> ĐĂNG KÝ HỌC VIÊN</h1>
+            <form method="post" class="letter">
+                <h3 class="text">
+                    Họ và tên
+                    <input type="text" name="yourname" class="cell" style="margin-left: 10%">
+                </h3>
+                <h3 class="text">
+                    Ngày sinh <input type="date" name="birthdate" class="cell" style="margin-left: 9.65%">
+                </h3>
+                <h3 >
+                    <h3 style="color: blue">Giới tính</h3>
+                    <input type="radio" name="yourgender" style="margin-left: 20%">Nam
+                    <input type="radio" name="yourgender" >Nữ
+                </h3>
+                <h3 class="text">
+                    Địa chỉ
+                    <input type="textarea" name="address" class="cell" style="height: 50px; margin-left: 12.5%">
+                </h3>
+                <h3 class="text">
+                    Lớp
+                    <select name="class" style="margin-left: 15.2%">
+                        <option> --Chọn lớp--</option>
+                        <option> Java </option>
+                        <option> PHP </option>
+                    </select>
+                </h3>
+                <h3 class="text">
+                    Email <input type="text" name="email" class="cell" style=" margin-left: 13.5%">
+                </h3>
+                <h3 class="text">
+                    Điện thoại <input type="text" name="phonenum" class="cell" style="margin-left: 9.47%">
+                </h3>
+                <input type="submit" name= "Submit Form" value= "Đăng ký" class="button" style="margin-left: 20%">
+                <input type="reset" name="Reset Form" value="Nhập lại" class="button">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
