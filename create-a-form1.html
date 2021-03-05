@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm hiểu sở thích</title>
+    <style>
+        .container{
+            height: 450px; width: 900px;
+            border: 1px solid white;
+            background: aqua;
+        }
+        .content{
+            height:90%; width:90%;
+            border: 1px solid white;
+            background: white;
+            position: relative; top: 3%; left: 5%;
+        }
+        .header{
+            width:95%; height: 17%;
+            border: 1px solid white;
+            background: orangered;
+            position: relative; top: 2.5%; left: 2.5%;
+        }
+        .title {
+            margin: revert;
+            margin-left: 28%;
+        }
+        .textbox1{
+            margin-left: 10%;
+        }
+        .textbox2{
+            margin-left: 13.75%;
+        }
+        .button{
+            border-left: 3px; border-top: 3px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="header">
+                <h1 style="color: white;" class="title"> SỞ THÍCH CỦA BẠN</h1>
+            <form method="get">
+                <h3 style="color: blue" class="textbox1"> Họ và tên  <input  type="text" name="yourname" size= "35" style="font-size:16pt"></h3>
+                <h3 style="color: blue" class="textbox2"> Email  <input type="text" name="email"  style="font-size:16pt"></h3>
+                <h3 style="color: blue; margin-left: 11%"> Sở thích
+
+                </h3>
+                <h3 style="color:orange">
+                    <input type="checkbox"  name="hobby" style="margin-left: 22%"> Thể thao
+                    <input type="checkbox"  name="hobby" style="margin-left: 1.4%"> Âm nhạc
+                    <input type="checkbox"  name="hobby" style="margin-left: 2.2%"> Đọc sách
+                </h3>
+                <h3 style="color:orange">
+                    <input type="checkbox"  name="hobby" style="margin-left: 22%"> Lướt web
+                    <input type="checkbox"  name="hobby"> Chơi game
+                    <input type="checkbox"  name="hobby"> Điện ảnh
+                </h3>
+                <h3 style="color:orange">
+                    <input type="checkbox"  name="hobby" style="margin-left: 22%"> Du lịch
+                </h3>
+                <input type="submit" class="button" name= "Submit Form" value= "Gửi thông tin" style="margin-left: 20%">
+                <input type="reset" class="button" name="Reset Form" value="Nhập lại">
+            </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
